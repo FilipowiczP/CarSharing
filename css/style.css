@@ -165,26 +165,22 @@ nav ul li:hover{
     color: #6A6A6A;
 }
 
-.box{
+.second_sectio_box{
     width: 30%;
 }
 
-.box img{
-
-}
-
-.box h2{
+.second_sectio_box h2{
     font-size: 1.3em;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
-.box p{
+.second_sectio_box p{
     width: 80%;
     margin-bottom: 10%;
 }
 
-.box a{
+.second_sectio_box a{
     text-decoration: none;
     text-transform: uppercase;
     background-color: #FF0000;
@@ -194,3 +190,84 @@ nav ul li:hover{
     border: none;
     padding: 10px 30px;
 }
+
+.third_section{
+    background-color: #28272C;
+    padding: 8%;
+}
+
+.third_content{
+    width: 80vw;
+    margin: auto;
+}
+
+.service{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.service::before{
+    content: "";
+    height: 3px;
+    width: 50px;
+    border-bottom: 3px solid red;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.service::after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    border-bottom: 3px solid red;
+    position: absolute;
+    top: 25%;
+    right: 40%;
+}
+
+.content_box{
+    display: flex;
+    justify-content: space-between;
+    color: #6A6A6A;
+}
+
+.third_section_box{
+    width: 30%;
+    margin: 2%;
+}
+
+.third_section_box img{
+    border-radius: 50%;
+    margin-left: 18%;
+}
+
+.third_section_box h2{
+    font-size: 1.2em;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.third_section_box p{
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.third_section_box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    color: white;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 18%;
+}
+
+
